@@ -1,0 +1,14 @@
+var st = "welcome to ts practice";
+var st2 = " go away";
+console.log(st.charAt(0));
+console.log(st.concat(st2));
+console.log(st2.replace('g', 't'));
+console.log(st2.replace('away', 'the top'));
+var st3 = "banana,apple,pineapple";
+console.log(st3.split(','));
+console.log(st2.substring(1, 5));
+console.log(st3.toUpperCase());
+console.log(st3.toLowerCase());
+var st4 = "   welcome   ";
+console.log(st4);
+console.log(st4.trim());
